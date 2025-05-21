@@ -45,9 +45,12 @@ botao.config(activeforeground='#FFFb1f') #defininfo a cor do conteúdo em sí do
 
 # botao.config(state=DISABLED) #desativa o botão
 
-
 botao.pack() #posição do botão 
 
+entrada = Entry()
+entrada.config(font=("Arial", 30, "bold"), bg="black", fg="white")
+entrada.insert(0, "Numero de pessoas na votação")
+entrada.pack()
 
 
 
